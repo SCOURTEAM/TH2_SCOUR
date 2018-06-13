@@ -20,7 +20,7 @@
 
 # <p align="center"> كود تنصيب السورس 🖇
 
-<br>` git clone https://github.com/SCOURTEAM/TH2_SCOUR.git;cd BOSS;chmod +x ins;./ins `<br>
+<br>` .https://github.com/SCOURTEAM/TH2_SCOUR.git;cd TH2_SCOUR;chmod +x ins;./ins `<br>
 
 
 # <p align="center"> بعد انتهاء عمليه تثبيت السورس 🚸
@@ -35,7 +35,7 @@
  <p align="center"> :: كود تشغيل السورس | لتشغيل السورس يدوي 📛
  
 افتح ترمنال جديد ثم تدخل الكود الاتي <br>
- <br>  `./SCOUR/run`
+ <br>  `./TH2_SCOUR/run`
 
 #  💬¦ للمشاكل والاسفسار والاقتراحات :
   
