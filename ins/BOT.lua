@@ -1,6 +1,6 @@
 --[[
 << تم برمجه وكتابه السورس من قبل مطورين >>
-<<         @BLCON  \  @TH3BOSS          >>
+<<         @Iq_XX_56  \  @VI_P2          >>
 ]] 
 function load_proc()
 loadfile('./inc/functions.lua')()
@@ -92,10 +92,10 @@ file:write([[
 #!/usr/bin/env bash
 cd $(cd $(dirname $0); pwd)
 if ! screen -list | grep -q "boss"; then
-screen -S boss lua ./inc/BOT.lua
+screen -S SCOUR lua ./inc/BOT.lua
 fi
 screen -X -S boss kill
-screen -S boss lua ./inc/BOT.lua
+screen -S SCOUR lua ./inc/BOT.lua
 ]])
 file:close()
 print ('\27[1;36minfo.lua is created.\27[m')
@@ -176,8 +176,8 @@ print('\27[0;33m>>'..[[
   ███    ███ ███    ███    ▄█    ███    ▄█    ███ 
 ▄█████████▀   ▀██████▀   ▄████████▀   ▄████████▀  
                                                   
-]]..'\27[0;31m'..[[¦ Dev : @BLCON]]..'\27[m\27[0;32m\n\n\027[0;32m'   
-..'\27[0;31m'..[[¦ Dev : @TH3BS]]..'\27[m\27[0;32m\n\n\027[0;32m'   
+]]..'\27[0;31m'..[[¦ Dev : @VI_P2]]..'\27[m\27[0;32m\n\n\027[0;32m'   
+..'\27[0;31m'..[[¦ Dev : @Iq_XX_56]]..'\27[m\27[0;32m\n\n\027[0;32m'   
 ..'¦ TOKEN_BOT: \27[1;34m'..info.TOKEN..'\027[0;32m\n'
 ..'¦ USER__BOT: \27[1;34m@'..TGO.result.username..'\027[0;32m\n'
 ..'¦ IS_ID_BOT: \27[1;34m'..TGO.result.id..'\027[0;32m\n'
